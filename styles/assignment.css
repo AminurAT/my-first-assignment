@@ -39,7 +39,7 @@ nav{
 }
 
 .button-primary{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   background-color: rgba(78, 71, 255, 1);
   color: rgba(255, 255, 255, 1);
@@ -47,6 +47,7 @@ nav{
   border-radius: 10px;
   border: none;
 }
+
 /* banner style */
 .banner{
   text-align: center;
@@ -66,6 +67,7 @@ main{
 /* Action Section */
 main section{
   margin: 116px 160px 116px 140px;
+  
 }
 .action{
   display: flex;
@@ -88,6 +90,7 @@ main section{
 }
 .action-image{
   border-radius: 48px;
+  margin-top: 20px;
 }
 
 /* productive users style */
@@ -118,6 +121,28 @@ main section{
    margin: 0;
 }
 .pro-subtitle{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* focus Section */
+
+.focus-section{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 14px;
+  text-align: center;
+  padding: 71px 150px;
+  margin-top: 137px;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin: 0px;
+
+}
+.focus-subtitle{
   font-size: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
