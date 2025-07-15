@@ -58,3 +58,34 @@ nav{
   color: rgba(37, 36, 50, 1);
   margin: 0 0 37px;
 }
+/* main style */
+main{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/* Action Section */
+main section{
+  margin: 116px 160px 116px 140px;
+}
+.action{
+  display: flex;
+   justify-content: space-between;
+  align-items: center;
+  gap: 220px;
+  
+}
+
+.action-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+}
+.action-subtitle{
+  font-size: 24px;
+  font-weight: 400px;
+  color: rgba(37, 36, 50, 0.5);
+  
+}
+.action-image{
+  border-radius: 48px;
+}
