@@ -131,6 +131,56 @@ main section{
   color: rgba(0, 0, 0, 0.5);
 }
 
+
+/*  Feedback or  Challenge section */
+.feedback-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.feedback{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  padding: 24px;
+}
+.feedback-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+  text-align: center;
+  margin-top: 137px;
+  margin-bottom: 50px;
+}
+.text-center{
+  text-align: center;
+}
+
+.feedback-heading{
+ color: rgba(30, 30, 30, 1);
+}
+.repeat-image{
+  background: url('../Assets/icon-star.png');
+  background-repeat: repeat;
+  width: 90px;
+  height: 18px;}
+  .feed-image{
+    border-radius: 9999px;
+  }
+
+  .feed-data{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .feed-name{
+    color: rgba(117, 117, 117, 1);
+  }
+ .feed-date{
+  color: rgba(179, 179, 179, 1);
+ }
+
+
 /* focus Section */
 
 .focus-section{
@@ -139,6 +189,8 @@ main section{
   text-align: center;
   padding: 71px 150px;
   margin-top: 137px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
 }
 .focus-title{
   font-size: 50px;
@@ -225,6 +277,4 @@ div input[type="text"], div input[type="email"], div textarea{
     color: rgba(137, 135, 161, 1);
     margin-right: 48px;
   }
-  .footer-links{
-
-  }
+  
